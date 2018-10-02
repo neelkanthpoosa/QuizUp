@@ -256,20 +256,20 @@ int user::points=0;
 int user::v=0;
 
 
-	main()
-	{
+main()
+ 	{
 		user a;//USER OBJ
 		int a1;
 		int i;
-		    int r=0;
-	head h;	//ADMIN OBJ
-int j;
+		int r=0;
+		head h;	//ADMIN OBJ
+	int j;
 X:
 while(1)
-{
-system("cls");
-cout<<"Wanna play?HIT 1!\n\n"<<endl<<"ADMIN,PLEASE ENTER 2.\n\n\n\n\n";
-cin>>j;
+	{
+	system("cls");
+	cout<<"Wanna play?HIT 1!\n\n"<<endl<<"ADMIN,PLEASE ENTER 2.\n\n\n\n\n";
+	cin>>j;
 
 switch(j)
 {
